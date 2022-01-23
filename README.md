@@ -21,6 +21,6 @@ print('{:.2f}'.format(res))
 ## Sample Input and Output:
 ![norm1](./input.jpg)
 ## Output:
-![output](1.png)
+![output](1.PNG)
 ## Result
 Thus the program for 2-norm of a matrix is written and verified.
