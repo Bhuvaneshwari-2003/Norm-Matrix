@@ -5,22 +5,24 @@ To write a program to find the 2-norm of the matrix and display the result in tw
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-	1. Get the input matrix using np.array()
-	2. The 2-Norm of a matrix is given by 
-![norm](./normeqn1.jpg)
-    
-    3. Find the 2-norm of the matrix using np.linalg.norm()
-	4. Print the norm of the matrix in two decimal places.
+1. Get the input matrix using np.array()
+2. The 2-Norm of a matrix is given by 
+norm
+
+![image](https://user-images.githubusercontent.com/94828604/155049705-0d5d50eb-0139-415b-b580-3770cd38facc.png)
+3. Find the 2-norm of the matrix using np.linalg.norm()
+4. Print the norm of the matrix in two decimal places.
 ## Program:
-```
 import numpy as np
-m1=eval(input())
-res=np.linalg.norm(m1,2)
-print('{:.2f}'.format(res))
-```
+
+# Type your code here
+a=eval(input())
+r=np.linalg.norm(a,2)
+print("{:.2f}".format(r))
+
 ## Sample Input and Output:
-![norm1](./input.jpg)
-## Output:
-![output](1.PNG)
+![image](https://user-images.githubusercontent.com/94828604/155049925-1c52ad99-bdff-432b-85eb-b2d5341f9cb6.png)
+
+
 ## Result
 Thus the program for 2-norm of a matrix is written and verified.
