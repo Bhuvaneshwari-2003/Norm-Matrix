@@ -9,7 +9,8 @@ To write a program to find the 2-norm of the matrix and display the result in tw
 2. The 2-Norm of a matrix is given by 
 norm
 
-![image](https://user-images.githubusercontent.com/94828604/155049705-0d5d50eb-0139-415b-b580-3770cd38facc.png)
+![Screenshot (91)](https://user-images.githubusercontent.com/94828604/155050260-779f540d-3042-4144-9dab-068279151fb0.png)
+
 3. Find the 2-norm of the matrix using np.linalg.norm()
 4. Print the norm of the matrix in two decimal places.
 ## Program:
